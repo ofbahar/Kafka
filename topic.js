@@ -7,7 +7,7 @@ async function createTopic() {
     // Admin Stuff..
     const kafka = new Kafka({
       clientId: "kafka_ofbahar",
-      brokers: ["68.183.67.198:9092"]
+      brokers: ["192.168.1.30:9092"]
     });
 
     const admin = kafka.admin();
@@ -19,10 +19,6 @@ async function createTopic() {
         {
           topic: "Logs",
           numPartitions: 1
-        },
-        {
-          topic: "Logs2",
-          numPartitions: 3
         }
       ]
     });
