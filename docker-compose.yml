@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  consumer:
+
+    build: Consumer
+    environment:
+      kafka_ip: 127.0.0.1
+      kafka_port: 9092
+      kafka_topic: Logs
+      kafka_clientid: ofbahar
+    
+  producer:
+
+    build: Producer
+    environment:
+      kafka_ip: 127.0.0.1
+      kafka_port: 9092
+      kafka_topic: Logs
+      kafka_clientid: ofbahar
+
