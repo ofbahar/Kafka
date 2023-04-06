@@ -1,5 +1,5 @@
 ## Kafka Producer-Consumer Uygulaması
-### Açıklam
+### Açıklama
 - Apache Kafka için producer - consumer uygulamaları, bunları yönetmek için oluşturulan Dockerfile ve docker-compose yml dosyalarını içeren Github reposudur.
 - Uygulamalar ve Dockerfile dosyaları kendilerine ait klasörlerde bulunmaktadırlar.
 
